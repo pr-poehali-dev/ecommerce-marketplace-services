@@ -62,6 +62,16 @@ const categories = [
     count: "Кредит от 9.9%",
     emoji: "💳",
   },
+  {
+    label: "IngoGO",
+    path: "/ingogo",
+    icon: "Zap",
+    desc: "Экосистема с кешбэком до 10%",
+    gradient: "from-brand-blue to-brand-cyan",
+    glow: "glow-blue",
+    count: "Кешбэк до 10%",
+    emoji: "⚡",
+  },
 ];
 
 export default function CategoryGrid() {
