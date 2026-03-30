@@ -39,7 +39,7 @@ export default function FinancePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-violet/10 to-brand-blue/10" />
         <div className="container max-w-7xl mx-auto px-4 relative">
           <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">💳 Финансы</h1>
-          <p className="text-white/60">МегаБанк — внутренний банк маркетплейса. Без комиссий, кешбэк до 10%</p>
+          <p className="text-white/60">PonyБанк — внутренний банк маркетплейса. Без комиссий, кешбэк до 10%</p>
         </div>
       </div>
 
@@ -52,7 +52,7 @@ export default function FinancePage() {
               <div className="flex items-center justify-between mb-4">
                 <span className="text-white/60 text-sm flex items-center gap-2">
                   <Icon name="Wallet" size={16} />
-                  МегаКошелёк
+                  PonyКошелёк
                 </span>
                 <span className="text-brand-cyan text-xs glass px-2 py-0.5 rounded-md">Активен</span>
               </div>

@@ -45,10 +45,10 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-xl gradient-brand flex items-center justify-center">
-                <span className="text-white font-bold text-lg font-display">М</span>
+                <span className="text-white font-bold text-lg font-display">P</span>
               </div>
               <span className="text-white font-display font-bold text-xl">
-                МЕГА<span className="gradient-text">МАРКЕТ</span>
+                PONY<span className="gradient-text">EXPRESS</span>
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-4">
@@ -91,7 +91,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-white/30 text-sm">
-            © 2026 МегаМаркет. Все права защищены
+            © 2026 PonyExpress. Все права защищены
           </div>
           <div className="flex items-center gap-4 text-white/30 text-sm">
             <span className="flex items-center gap-1.5">

@@ -152,7 +152,7 @@ export default function PromoSection() {
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <Icon name="Landmark" size={20} className="text-brand-cyan" />
-                    <span className="text-brand-cyan font-medium">МегаБанк</span>
+                    <span className="text-brand-cyan font-medium">PonyБанк</span>
                   </div>
                   <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-2">
                     Внутренний банк маркетплейса

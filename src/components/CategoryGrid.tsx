@@ -63,8 +63,8 @@ const categories = [
     emoji: "💳",
   },
   {
-    label: "PonyExpress",
-    path: "/ponyexpress",
+    label: "IngoGo",
+    path: "/ingogo",
     icon: "Zap",
     desc: "Экосистема с кешбэком до 10%",
     gradient: "from-brand-blue to-brand-cyan",

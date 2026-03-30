@@ -12,7 +12,7 @@ const nav = [
   { label: "Здоровье", path: "/health", icon: "Heart" },
   { label: "Недвижимость", path: "/realty", icon: "Building2" },
   { label: "Финансы", path: "/finance", icon: "Landmark" },
-  { label: "PonyExpress", path: "/ponyexpress", icon: "Zap" },
+  { label: "IngoGo", path: "/ingogo", icon: "Zap" },
 ];
 
 export default function Header() {
@@ -28,10 +28,10 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0">
             <div className="w-9 h-9 rounded-xl gradient-brand flex items-center justify-center animate-pulse-glow">
-              <span className="text-white font-bold text-lg font-display">М</span>
+              <span className="text-white font-bold text-lg font-display">P</span>
             </div>
             <span className="text-white font-display font-bold text-xl hidden sm:block">
-              МЕГА<span className="gradient-text">МАРКЕТ</span>
+              PONY<span className="gradient-text">EXPRESS</span>
             </span>
           </Link>
 

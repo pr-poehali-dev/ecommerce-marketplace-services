@@ -156,7 +156,7 @@ export default function InsurancePage() {
                   {[
                     { n: "01", text: "Введите данные и получите расчёт за 30 секунд" },
                     { n: "02", text: "Сравните предложения от топ-страховщиков" },
-                    { n: "03", text: "Оплатите онлайн через МегаКошелёк" },
+                    { n: "03", text: "Оплатите онлайн через PonyКошелёк" },
                     { n: "04", text: "Получите полис на email мгновенно" },
                   ].map((step) => (
                     <div key={step.n} className="flex items-start gap-3">

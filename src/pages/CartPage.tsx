@@ -121,7 +121,7 @@ export default function CartPage() {
                 <div className="glass rounded-xl p-3 mb-4 flex items-center gap-3 border border-brand-blue/30">
                   <Icon name="Wallet" size={18} className="text-brand-cyan" />
                   <div className="flex-1">
-                    <div className="text-white text-sm font-medium">МегаКошелёк</div>
+                    <div className="text-white text-sm font-medium">PonyКошелёк</div>
                     <div className="text-white/50 text-xs">Баланс: 47 650 ₽</div>
                   </div>
                   <Icon name="Check" size={16} className="text-brand-green" />

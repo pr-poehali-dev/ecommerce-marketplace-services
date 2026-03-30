@@ -17,7 +17,7 @@ const listings = [
 const mortgageRates = [
   { bank: "СберБанк", rate: "5.9%", term: "до 30 лет", payment: "от 28 500 ₽/мес", logo: "🟢" },
   { bank: "ВТБ", rate: "6.3%", term: "до 25 лет", payment: "от 31 200 ₽/мес", logo: "🔵" },
-  { bank: "МегаБанк", rate: "5.5%", term: "до 30 лет", payment: "от 26 900 ₽/мес", logo: "⭐" },
+  { bank: "PonyБанк", rate: "5.5%", term: "до 30 лет", payment: "от 26 900 ₽/мес", logo: "⭐" },
   { bank: "Альфа-Банк", rate: "6.8%", term: "до 20 лет", payment: "от 34 100 ₽/мес", logo: "🔴" },
 ];
 
