@@ -14,7 +14,7 @@ import RealtyPage from "./pages/RealtyPage";
 import FinancePage from "./pages/FinancePage";
 import CartPage from "./pages/CartPage";
 import AccountPage from "./pages/AccountPage";
-import IngoGoPage from "./pages/IngoGoPage";
+import PonyExpressPage from "./pages/IngoGoPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,7 +36,7 @@ const App = () => (
               <Route path="/health" element={<HealthPage />} />
               <Route path="/realty" element={<RealtyPage />} />
               <Route path="/finance" element={<FinancePage />} />
-              <Route path="/ingogo" element={<IngoGoPage />} />
+              <Route path="/ponyexpress" element={<PonyExpressPage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/account" element={<AccountPage />} />
               <Route path="*" element={<NotFound />} />

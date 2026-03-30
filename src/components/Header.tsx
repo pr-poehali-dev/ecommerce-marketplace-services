@@ -12,7 +12,7 @@ const nav = [
   { label: "Здоровье", path: "/health", icon: "Heart" },
   { label: "Недвижимость", path: "/realty", icon: "Building2" },
   { label: "Финансы", path: "/finance", icon: "Landmark" },
-  { label: "IngoGO", path: "/ingogo", icon: "Zap" },
+  { label: "PonyExpress", path: "/ponyexpress", icon: "Zap" },
 ];
 
 export default function Header() {

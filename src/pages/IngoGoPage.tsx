@@ -89,7 +89,7 @@ const HISTORY = [
   { id: 4, service: "Финансы", desc: "Перевод другу", amount: 5000, cashback: 350, date: "15 мар", icon: "Landmark", color: "#ff8c00" },
 ];
 
-export default function IngoGoPage() {
+export default function PonyExpressPage() {
   const [connected, setConnected] = useState<Set<string>>(
     new Set(SERVICES.filter((s) => s.connected).map((s) => s.id))
   );
@@ -157,7 +157,7 @@ export default function IngoGoPage() {
             className="text-center text-5xl md:text-7xl font-black mb-4 tracking-tight"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            <span className="text-white">Ingo</span>
+            <span className="text-white">Pony</span>
             <span
               style={{
                 background: "linear-gradient(90deg, #1a6dff, #00d4ff, #7b2fff)",
@@ -165,7 +165,7 @@ export default function IngoGoPage() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              GO
+              Express
             </span>
           </h1>
           <p className="text-center text-white/50 text-lg md:text-xl mb-10 max-w-xl mx-auto">
@@ -207,7 +207,7 @@ export default function IngoGoPage() {
               style={{ background: "linear-gradient(135deg, #1a6dff, #7b2fff)" }}
             >
               <Icon name="Rocket" size={18} className="mr-2" />
-              Подключить IngoGO
+              Подключить PonyExpress
             </Button>
             <Button
               size="lg"
