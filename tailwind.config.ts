@@ -58,14 +58,14 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				brand: {
-					blue: '#1A6DFF',
-					coral: '#FF4D6D',
-					violet: '#7B2FFF',
-					cyan: '#00D4FF',
-					green: '#00C896',
-					orange: '#FF8C00',
-					dark: '#0A0E1A',
-					navy: '#0D1B3E',
+					blue: '#FF6600',
+					coral: '#FF8533',
+					violet: '#CC5200',
+					cyan: '#FFB380',
+					green: '#FF6600',
+					orange: '#FF8533',
+					dark: '#1A1A1A',
+					navy: '#2B2B2B',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -113,8 +113,8 @@ export default {
 					'50%': { transform: 'translateY(-10px)' }
 				},
 				'pulse-glow': {
-					'0%, 100%': { boxShadow: '0 0 20px rgba(26, 109, 255, 0.4)' },
-					'50%': { boxShadow: '0 0 40px rgba(26, 109, 255, 0.8)' }
+					'0%, 100%': { boxShadow: '0 0 20px rgba(255, 102, 0, 0.4)' },
+					'50%': { boxShadow: '0 0 40px rgba(255, 102, 0, 0.8)' }
 				},
 				'shimmer': {
 					from: { backgroundPosition: '-200% 0' },
